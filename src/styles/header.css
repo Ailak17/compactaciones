@@ -1,0 +1,18 @@
+header {
+    
+    background-color: #00AEC2;
+    padding: 15px 0;
+    position:static;
+    
+}
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight:500;
+    font-family: 'Encode Sans';;
+    font-style: bold ;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    margin-left: 40px;
+}

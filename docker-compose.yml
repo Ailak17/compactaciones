@@ -1,0 +1,13 @@
+services:
+  app:
+    image: front:latest  # Usa tu imagen de Vite ya construida
+    ports:
+      - "8080:80"  # Expón el puerto donde Nginx Proxy Manager pueda acceder
+    restart: always
+    networks:
+      nginx_network:
+
+networks:
+  nginx_network:
+    driver: bridge
+    enable_ipv6: false 
